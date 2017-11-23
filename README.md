@@ -1,7 +1,7 @@
-##Disclaimer
+## Disclaimer
 Because this needs to connect through wifi to your GoPro, it's best if you run all of it locally.
 
-#How it works
+# How it works
 - Connect to your GoPros wireless network.
 - Download, clone or fork this repo.
 - Run `npm install` in the root directory
