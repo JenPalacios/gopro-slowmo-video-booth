@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 50px;
+  width: 300px;
+  color: #fff; }
+  button:hover {
+    cursor: pointer; }
+
+#record {
+  background-color: #e74c3c; }
+
+#playback {
+  background-color: #3498db; }
+
+#countdown {
+  font-size: 120px;
+  color: #e67e22; }
+
+.section--recording {
+  text-align: center; }
+
+span[class^='dot_'] {
+  opacity: 0; }
+
+.dot_one {
+  -webkit-animation: dot_one 2s infinite linear;
+          animation: dot_one 2s infinite linear; }
+
+.dot_two {
+  -webkit-animation: dot_two 2s infinite linear;
+          animation: dot_two 2s infinite linear; }
+
+.dot_three {
+  -webkit-animation: dot_three 2s infinite linear;
+          animation: dot_three 2s infinite linear; }
+
+.section--video,
+.section--playback,
+.section--recording,
+#close {
+  display: none; }
+
+@-webkit-keyframes dot_one {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 0; }
+  25% {
+    opacity: 1;
+    color: orange; }
+  100% {
+    opacity: 1; } }
+
+@keyframes dot_one {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 0; }
+  25% {
+    opacity: 1;
+    color: orange; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes dot_two {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 0;
+    color: yellow; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes dot_two {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 0;
+    color: yellow; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes dot_three {
+  0% {
+    opacity: 0; }
+  65% {
+    opacity: 0;
+    color: purple; }
+  75% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes dot_three {
+  0% {
+    opacity: 0; }
+  65% {
+    opacity: 0;
+    color: purple; }
+  75% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map*/
